@@ -15,8 +15,8 @@ let numOfMessages = 10; // 1 for every messages he reacts to everything. then if
 
 //NOTE!!: based on all users from bot userdata, not per userID...
 
-function containsOnlyEmojis(text) {
-  return emoji.has(text);
+function containsOnlyEmojis(😆) {
+  return emoji.has(😆);
 }
 
 module.exports = {
