@@ -6,7 +6,7 @@ module.exports = {
 		name: "help",
 		aliases: ["menu", "commands"],
 		version: "4.8",
-		author: "NeoKEX",
+		author: "Baha bot",
 		shortDescription: "Show all available commands",
 		longDescription: "Displays a clean and premium-styled categorized list of commands.",
 		category: "system",
@@ -22,7 +22,7 @@ module.exports = {
 			fun: "➥", owner: "➥", config: "➥", economy: "➥",
 			media: "➥", "18+": "➥", tools: "➥", utility: "➥",
 			info: "➥", image: "➥", game: "➥", admin: "➥",
-			rank: "➥", boxchat: "➥", others: "➥"
+			rank: "➥", boxchat: "➥", others: "➥" autoreact: "➥"
 		};
 
 		const cleanCategoryName = (text) => {
