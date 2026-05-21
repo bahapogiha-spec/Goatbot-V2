@@ -114,7 +114,7 @@ handlerEvents.cannotFindCommandName=❌ Không tìm thấy tên lệnh để th�
 handlerEvents.cannotFindCommand=❌ Không tìm thấy lệnh "%1" để thực thi phản hồi này!
 
 # bot/autoUptime.js
-autoUptime.autoUptimeTurnedOn=Đã bật chế độ autoUptime
+autoUptime.autoUptimeTurnedOn=The mode has been enabled. autoUptime
 
 # database/controller/index.js
 indexController.connectingMongoDB=Đang kết nối cơ sở dữ liệu MONGODB
@@ -141,10 +141,11 @@ updater.skipFile=Đã có phiên bản mới của file %1, nhưng bạn đã b�
 verifyfbid.sendCode=Mã xác nhận của bạn là:\n%1\nMã xác nhận có hiệu lực trong vòng %2 phút
 
 # utils.js
-utils.errorOccurred=❌ Đã xảy ra lỗi:\n\n%1
+utils.errorOccurred=❌ An error has occurred:\n\n%1
 
 # for command
-command.restartedBot=Đã khởi động lại bot
+command.restartedBot=An error has occurred:\n\n%1
+
 
 # dashboard/app.js
 app.googleApiRefreshTokenExpired=Google API refresh token đã hết hạn hoặc bị thu hồi, vui lòng lấy lại token mới tại https://developers.google.com/oauthplayground/
