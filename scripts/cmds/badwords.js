@@ -7,7 +7,7 @@ module.exports = {
 		countDown: 5,
 		role: 1,
 		description: {
-			vi: "Enable/disable/add/remove warnings for vulgar language violations. If a member violates the rules, they will receive a warning; a second violation will result in being removed from the chat box.",
+			vi: "Bật/tắt/thêm/xóa cảnh báo vi phạm từ thô tục, nếu thành viên vi phạm sẽ bị cảnh báo, lần 2 sẽ kick khỏi box chat",
 			en: "Turn on/off/add/remove bad words warning, if a member violates, he will be warned, the second time he will be kicked out of the chat box"
 		},
 		category: "box chat",
@@ -29,8 +29,8 @@ module.exports = {
 
 	langs: {
 		vi: {
-			onText: "!on",
-			offText: "!off",
+			onText: "bật",
+			offText: "tắt",
 			onlyAdmin: "⚠ | Chỉ quản trị viên mới có thể thêm từ cấm vào danh sách",
 			missingWords: "⚠ | Bạn chưa nhập từ cần cấm",
 			addedSuccess: "✓ | Đã thêm %1 từ cấm vào danh sách",
@@ -243,4 +243,4 @@ function hideWord(str) {
 	return str.length == 2 ?
 		str[0] + "*" :
 		str[0] + "*".repeat(str.length - 2) + str[str.length - 1];
-}
+					}
