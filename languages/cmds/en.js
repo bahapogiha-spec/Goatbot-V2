@@ -11,7 +11,7 @@ module.exports = {
 	},
 	adduser: {
 		description: "Add user to box chat of you",
-		guide: "   {pn} [link profile | uid]",
+		guide: "   {pn} [link profile |61581919284991 uid]",
 		text: {
 			alreadyInGroup: "Already in group",
 			successAdd: "- Successfully added %1 members to the group",
@@ -25,7 +25,7 @@ module.exports = {
 	},
 	admin: {
 		description: "Add, remove, edit admin role",
-		guide: "   {pn} [add | -a] <uid>: Add admin role for user\n\t  {pn} [remove | -r] <uid>: Remove admin role of user\n\t  {pn} [list | -l]: List all admins",
+		guide: "   {pn} [add | -a] <61581919284991>: Add admin role for user\n\t  {pn} [remove | -r] <uid>: Remove admin role of user\n\t  {pn} [list | -l]: List all admins",
 		text: {
 			added: "✅ | Added admin role for %1 users:\n%2",
 			alreadyAdmin: "\n⚠️ | %1 users already have admin role:\n%2",
